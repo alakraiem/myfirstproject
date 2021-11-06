@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  padding: 1.2em;
+}
+header img {
+  width: 180px;
+}
+header ul {
+  display: flex;
+  list-style: none;
+}
+header ul li {
+  margin-right: 15px;
+}
+
+header ul li a:hover {
+  color: #00b39b;
+}
+
+.active {
+  color: #00b39b;
+}
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+main .land {
+  text-align: center;
+  color: #00b39b;
+}
+main .land p {
+  margin-top: 30px;
+  font-size: 1.8em;
+  font-weight: lighter;
+}
+main .para {
+  display: flex;
+  color: gray;
+  margin-top: 50px;
+}
+main .blocs {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+main .blocs .bloc {
+  width: 26%;
+  padding: 1.5em;
+  color: white;
+  background-color: #00b39b;
+  border-radius: 12px;
+}
+main .blocs .bloc > * {
+  margin-top: 15px;
+}
+
+main .blocs .bloc select {
+  margin-top: 100px;
+  width: 60%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.2em;
+  color: white;
+}
+.blue {
+  background-color: #3d83df !important;
+}
+.black {
+  background-color: #1b2734 !important;
+}
+.second-title {
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 60px;
+}
+.second-title p:first-child {
+  font-size: 1.5em;
+  color: #00b39b;
+  font-weight: 400;
+}
+.second-title p:last-child {
+  margin-top: 30px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
